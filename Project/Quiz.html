@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="Main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Quiz</h1>
+    </header>
+    <div id="main">
+        <button id="start" type="button" onclick="showQA()">Start Quiz</button>
+        <button id="rules" type="button" onclick="showRules()">Rules of Quiz</button>
+    </div>
+
+    <div id="quiz">
+        <h2 class="Q">Q1. Which Iranian commander has been killed in recent US attack at Baghdad Airport?</h2>
+        <form>
+            <input type="radio" name="q1" value="Amir-Abbas Hoveyda">Amir-Abbas Hoveyda<br>
+            <input type="radio" name="q1" value="Qasem Soleimani">Qasem Soleimani<br>
+            <input type="radio" name="q1" value="Ali Khamenei">Ali Khamenei<br>
+            <input type="radio" name="q1" value="Ebrahim Raisi">Ebrahim Raisi<br>
+        </form>
+
+        <h2 class="Q">Q2. Which of the following Indian cities will host the International Naval Program 'Milan' to be held in March 2020? </h2>
+        <form>
+            <input type="radio" name="q2" value="Mumbai">Mumbai<br>
+            <input type="radio" name="q2" value="Goa">Goa<br>
+            <input type="radio" name="q2" value="Visakhapatnam">Visakhapatnam<br>
+            <input type="radio" name="q2" value="Coimbatore">Coimbatore<br>
+        </form>
+
+        <h2 class="Q">Q3. Where will the Summer Olympics of 2020 will be held? </h2>
+        <form>
+            <input type="radio" name="q3" value="Moscow">Moscow<br>
+            <input type="radio" name="q3" value="Tokyo">Tokyo<br>
+            <input type="radio" name="q3" value="Beijing">Beijing<br>
+            <input type="radio" name="q3" value="Glasgow">Glasgow<br>
+        </form>
+
+        <h2 class="Q">Q4. Who won the FIFA Football World Cup in 2018? </h2>
+        <form>
+            <input type="radio" name="q4" value="Croatia">Croatia<br>
+            <input type="radio" name="q4" value="Germany">Germany<br>
+            <input type="radio" name="q4" value="France">France<br>
+            <input type="radio" name="q4" value="Brazil">Brazil<br>
+        </form>
+
+        <h2 class="Q">Q5. Identify the company from the logo. </h2>
+        <form>
+            <img src="Q5.png" class="imgQ"><br>
+            <input type="radio" name="q5" value="Toshiba">Toshiba<br>
+            <input type="radio" name="q5" value="Tata Consultancy Services">Tata Consultancy Services<br>
+            <input type="radio" name="q5" value="Tesla">Tesla<br>
+            <input type="radio" name="q5" value="Toyota">Toyota<br>
+        </form>
+
+        <h2 class="Q">Q6. Who won the FIFA Football World Cup in 2018? </h2>
+        <form>
+            <img src="Q6.png" class="imgQ"><br>
+            <input type="radio" name="q6" value="Tim Cook">Tim Cook<br>
+            <input type="radio" name="q6" value="Sundar Pichai">Sundar Pichai<br>
+            <input type="radio" name="q6" value="Azim Premji">Azim Premji<br>
+            <input type="radio" name="q6" value="Satya Nadella">Satya Nadella<br>
+        </form>
+
+
+    </div>
+
+    <div id="final">
+        <button id="submit" type="submit" onclick="submitForm()">Submit</button>
+        <br>
+
+    </div>
+
+    <div id="result">
+        <h1 id="msg"></h1>
+        <br>
+
+        <table id="scoreboard">
+            <tr id="row0">
+                <td>Q.</td>
+                <td>Correct Answer</td>
+                <td>Your Answer</td>
+            </tr>
+
+            <tr id="row1">
+                <td>1.</td>
+                <td>Qasem Soleimani </td>
+                <td id="userAns1"></td>
+            </tr>
+
+            <tr id="row2">
+                <td>2.</td>
+                <td>Visakhapatnam</td>
+                <td id="userAns2"></td>
+            </tr>
+
+            <tr id="row3">
+                <td>3.</td>
+                <td>Tokyo</td>
+                <td id="userAns3"></td>
+            </tr>
+
+            <tr id="row4">
+                <td>4.</td>
+                <td>Croatia </td>
+                <td id="userAns4"></td>
+            </tr>
+
+            <tr id="row5">
+                <td>5.</td>
+                <td>Tesla</td>
+                <td id="userAns5"></td>
+            </tr>
+
+            <tr id="row6">
+                <td>6.</td>
+                <td>Satya Nadella </td>
+                <td id="userAns6"></td>
+            </tr>
+        </table>
+
+        <p id="marks"></p>
+        <p id="percentage"></p>
+    </div>
+</body>
+
+</html>

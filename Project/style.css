@@ -1,0 +1,73 @@
+header {
+    background-color: beige;
+    min-height: 10%;
+}
+
+header h1 {
+    color: brown;
+    text-align: center;
+}
+
+#start {
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 43%;
+    background-color: blue;
+    border-style: none;
+    color: white;
+    font-size: large;
+}
+
+#rules {
+    text-align: center;
+    background-color: blue;
+    border-style: none;
+    color: white;
+    font-size: large;
+}
+
+#quiz {
+    display: none;
+}
+
+.Q {
+    margin-left: 5%;
+    min-width: 90%;
+}
+
+#final {
+    display: none;
+}
+
+#submit {
+    margin-left: 48%;
+    text-align: center;
+    background-color: blue;
+    border-style: none;
+    color: white;
+    font-size: large;
+    margin-bottom: 2%;
+}
+
+form {
+    margin-left: 5%;
+}
+
+.imgQ {
+    height: 200px;
+    width: 180px;
+}
+
+#scoreboard {
+    display: none;
+    font-size: large;
+}
+
+#result {
+    margin-left: 5%;
+    font-size: large;
+}
+
+#msg {
+    display: none;
+}
